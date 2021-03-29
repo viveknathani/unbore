@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5092E4;
+}
+
+#main {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#what {
+    color: white;
+    font-size: x-large;
+    line-height: 0.2;
+}
+
+#what span{
+    color: rgb(107, 245, 245);
+    font-size: xx-large;
+}
+
+#how {
+    margin-top: 3%;
+}
+
+#how p {
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-top: -0.1%;
+    margin-bottom: 0.1%;
+}
+
+#random, select, option {
+    outline: 0;
+    border: 0;
+    background: tomato;
+    padding: 10px 35px;
+    font-weight: 800;
+    font-size: large;
+    color: white;
+    cursor:pointer;
+    border-radius:50px;
+    transition: all 0.3s ease;
+}
+
+select {
+    padding: 8px 20px;
+}
+
+#random:hover, select:hover {
+    background: rgb(236, 112, 90);
+}
+
+option {
+    background: white;
+    color: black;
+}
+
+#result {
+    text-align: center;
+    background: white;
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+    margin-top: 2%;
+    border-radius: 50px;
+    display: none;
+}
+
+#activity {
+    color: rgb(146, 44, 15);;
+}
+
+@media only screen and (max-width: 768px) {
+    #what {
+        line-height: 0.8;
+    }
+}
+
+#credit {
+    color: white;
+}
+
+#credit a {
+    color: rgb(107, 245, 245);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/res/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/res/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/res/favicon-16x16.png">
+    <link rel="manifest" href="/res/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>unbore</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="what">
+            <p>are you bored?</p> 
+            <p>lost meaning in life?</p>
+            <p>need some activity to <span>unbore</span> you?</p>
+            <p>you have come at the right place!</p>
+        </div>
+
+        <div id="credit">
+            <p>made by: <a href="https://github.com/viveknathani">viveknathani</a></p>
+        </div>
+
+        <div id="how">
+            <button type="submit" id="random">something random</button>
+            <p>or</p>
+            <select name="specific" id="specific">
+                <option value="none" selected disabled hidden>
+                    something specific
+                </option>
+                <option value="education">education</option>
+                <option value="recreational">recreational</option>
+                <option value="social">social</option>
+                <option value="diy">diy</option>
+                <option value="charity">charity</option>
+                <option value="cooking">cooking</option>
+                <option value="relaxation">relaxation</option>
+                <option value="music">music</option>
+                <option value="busywork">busywork</option>
+            </select>
+        </div>
+
+        <div id="result">
+            <p id="start"></p>
+            <p id="activity"></p>
+            <p id="people"></p>
+        </div>
+    </div>
+</body>
+</html>
